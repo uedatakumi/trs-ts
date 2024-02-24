@@ -1,7 +1,7 @@
 type Var = string;
 type Func = {
   name: string;
-  terms: Term[];
+  params: Term[];
 }
 
 type Term = Var | Func;
