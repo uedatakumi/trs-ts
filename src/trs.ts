@@ -5,3 +5,5 @@ type Func = {
 }
 
 type Term = Var | Func;
+type Rule = [Term, Term];
+type TRS = Rule[];
